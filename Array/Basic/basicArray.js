@@ -59,7 +59,7 @@ console.log("maximum second max :",fe,se)
 
 // without space
 let i=0,j=arr.length-1
-while(i<j){
+while(i<j){              //  i!=j This misses the middle element in arrays with odd lengths and skips the last swap in even lengths.
     let temp=arr[i]
     arr[i]=arr[j]
     arr[j]=temp
