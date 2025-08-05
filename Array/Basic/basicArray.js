@@ -8,7 +8,7 @@
 // arr1.push(10) 
 // console.log(arr1);
 
-let arr=[2,4,3,56,101,101,9]
+let arr=[2,4,3,56,101,101,9,10]
 
 console.log("Input Array : ",arr)
 
@@ -59,7 +59,7 @@ console.log("maximum second max :",fe,se)
 
 // without space
 let i=0,j=arr.length-1
-while(i!=j){
+while(i<j){
     let temp=arr[i]
     arr[i]=arr[j]
     arr[j]=temp
